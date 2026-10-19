@@ -1,0 +1,135 @@
+# =============================================================================
+# Predicting Stellar Class | Python / uv / Jupyter / ML
+# =============================================================================
+# Keep source code, notebooks, pyproject.toml, and uv.lock under version control.
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.pyre/
+.pytype/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.prof
+*.pstats
+
+# Virtual environments and local Python tooling
+.venv/
+venv/
+env/
+ENV/
+.python-version.local
+.pdm-python
+__pypackages__/
+# uv.lock is intentionally tracked.
+
+# Build and packaging outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.ipython/
+.jupyter/
+*.nbconvert.ipynb
+
+# JetBrains (PyCharm, DataSpell, IntelliJ)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Visual Studio Code (personal workspace settings)
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.shared.json
+*.code-workspace
+.history/
+
+# Data (do not commit downloaded Kaggle data or processed datasets)
+data/raw/**
+data/interim/**
+data/processed/**
+data/external/**
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# Model artifacts and serialized objects
+models/**
+!models/.gitkeep
+*.joblib
+*.pkl
+*.pickle
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.safetensors
+
+# Experiments, reports, and generated outputs
+outputs/**
+!outputs/.gitkeep
+artifacts/**
+!artifacts/.gitkeep
+reports/figures/**
+!reports/figures/.gitkeep
+mlruns/
+mlartifacts/
+wandb/
+lightning_logs/
+tensorboard/
+events.out.tfevents.*
+
+# Kaggle credentials and generated submissions
+kaggle.json
+.kaggle/
+submissions/**
+!submissions/.gitkeep
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# Logs, temp files, editor backups
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
