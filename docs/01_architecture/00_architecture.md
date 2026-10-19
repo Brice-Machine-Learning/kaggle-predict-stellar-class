@@ -41,14 +41,13 @@ predict_stellar_class/
 │   │   ├── test.csv
 │   │   └── sample_submission.csv
 │   ├── interim/
-│   │   └── .gitkeep
 │   ├── processed/
-│   │   └── .gitkeep
 │   └── external/
-│       └── .gitkeep
 ├── docs/
-│   ├── architecture.md
-│   ├── project-overview.md
+│   ├── 00_overview/
+│   │   └──  00_project_overview.md
+│   ├── 01_architecture/
+│   │   └──  00_architecture.md
 │   ├── data-dictionary.md
 │   ├── methodology.md
 │   ├── experiment-log.md
