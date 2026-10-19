@@ -71,23 +71,7 @@ Balanced accuracy prevents a model from appearing strong solely because it predi
 
 ## Repository Organization
 
-The project separates exploratory notebooks, reusable code, data, and outputs. Adapt the following layout to the actual repository structure:
-
-```text
-.
-├── README.md
-├── project-overview.md
-├── data/
-│   ├── raw/                 # Kaggle source files (typically gitignored)
-│   └── processed/           # Prepared datasets (typically gitignored)
-├── notebooks/
-│   ├── 01_data_ingestion.ipynb
-│   ├── 02_eda.ipynb
-│   └── 03_modeling.ipynb
-├── src/                     # Reusable data and modeling code
-├── models/                  # Saved models (typically gitignored)
-└── submissions/             # Kaggle submission files
-```
+See [project architecture](docs/01_architecture/00_architecture.md) for a detailed description of the repository structure, including directories for raw and processed data, notebooks, scripts, and documentation.
 
 ## Getting Started
 

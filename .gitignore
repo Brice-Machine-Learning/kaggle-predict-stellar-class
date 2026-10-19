@@ -63,6 +63,7 @@ out/
 .history/
 
 # Data (do not commit downloaded Kaggle data or processed datasets)
+data/**
 data/raw/**
 data/interim/**
 data/processed/**
