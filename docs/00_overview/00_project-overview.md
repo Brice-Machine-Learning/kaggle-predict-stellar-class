@@ -122,15 +122,15 @@ Do not fit preprocessing on the full labeled dataset before splitting into train
 
 For three classes, balanced accuracy is the arithmetic mean of class-specific recall:
 
-\[
+$$
 BA = \frac{1}{3}(R_{GALAXY} + R_{STAR} + R_{QSO})
-\]
+$$
 
 where:
 
-\[
+$$
 R_c = \frac{TP_c}{TP_c + FN_c}
-\]
+$$
 
 This metric gives equal weight to each class, regardless of its frequency.
 
